@@ -29,45 +29,38 @@
   <body class="h-100 d-flex flex-column">
 
     <!-- This is the navigation bar, see https://getbootstrap.com/docs/5.1/components/navbar/ -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand d-flex align-items-center" href="index.html">
           <img src="images/cotravel-logo.svg" alt="CoTravel Logo" width="72">
-          <span class="fw-bold text-cyan">CO</span>
-          <span class="fw-bold text-magenta">TRAVEL</span>
+          <span class="fw-bold text-erestu">Eres Tú</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="mainNav">
           <ul class="navbar-nav flex-grow-1">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#services">Our services</a>
-            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="perfumes.html" id="destinationDropdownButton" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Choose a destination
+                Fragrances
               </a>
               <ul class="dropdown-menu" aria-labelledby="destinationDropdownButton" id="destinationDropdown">
-                <li><a class="dropdown-item" href="perfumes.html#top">All destinations</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="perfumes.html#argentina">Argentina</a></li>
-                <li><a class="dropdown-item" href="perfumes.html#istanbul">Istanbul</a></li>
-                <li><a class="dropdown-item" href="perfumes.html#japan">Japan</a></li>
-                <li><a class="dropdown-item" href="perfumes.html#nyc">New York</a></li>
-                <li><a class="dropdown-item" href="perfumes.html#thailand">Thailand</a></li>
-                <li><a class="dropdown-item" href="perfumes.html#vietnam">Vietnam</a></li>
+
+                <li><a class="dropdown-item" href="perfumes.html">Perfumes</a></li>
+                <li><a class="dropdown-item" href="Testers.html">Testers</a></li>
+              
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="calendar.html">Choose a date</a>
+              <a class="nav-link selctnavbar" href="calendar.html">About us&nbsp;&nbsp;</a>
+            </li>
+			    <li class="nav-item">
+              <a class="nav-link" href="calendar.html">Contact&nbsp; &nbsp;</a>
             </li>
             <!-- A call to action at the end of the navigation bar.
               This uses the Offcanvas pattern, see documentation at https://getbootstrap.com/docs/5.1/components/offcanvas/ -->
             <li class="nav-item ms-lg-auto">
-              <button class="btn btn-danger" data-bs-target="#offcanvas" data-bs-toggle="offcanvas" aria-controls="offcanvas">
-                Contact us!
-              </button>
+              <button type="button" class="btn btn-outline-dark">sign in!</button>
             </li>
           </ul>
         </div>
@@ -76,7 +69,7 @@
     
     <!-- A hero section. hero-header is defined in our own styles -->
     <div class="bg-dark py-4 mb-4 text-light container-fluid hero-header text-center">
-      <h1>When would you like to leave?</h1>
+      <h1 class="h1">About us</h1>
     </div>
 
     <!-- Calendar -->

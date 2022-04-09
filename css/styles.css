@@ -86,4 +86,41 @@ header .overlay {
   z-index: 1;
 }
 
+Headfont {
+	font: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+
+
+	
+
 /* End of own styles */
+
+
+@media screen{
+.h1 {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic
+}	
+.navbar {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+}
+	
+.selctnavbar {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: bold
+}
+	
+.selctnavbar {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic
+}
+}
+
+ 
+
