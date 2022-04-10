@@ -57,11 +57,7 @@
 			    <li class="nav-item">
               <a class="nav-link" href="Contact.html">Contact&nbsp; &nbsp;</a>
             </li>
-            <!-- A call to action at the end of the navigation bar.
-              This uses the Offcanvas pattern, see documentation at https://getbootstrap.com/docs/5.1/components/offcanvas/ -->
-            
-			  
-			  
+
 		    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
@@ -141,17 +137,41 @@
     </div>
   </div>
 </div><a class="btn btn" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Sign in</a>
+			  
 
-<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Basket </button>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Basket
+</button>
 
-<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-	<div class="container" id="brand info">
-  <h2 class="text-center mt-4 mb-2 H2">Basket</h2>
-  <div class="offcanvas-header">
-    <h5 id="offcanvasRightLabel">Offcanvas right</h5>
-    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       Basket is empty!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue shopping</button>
+        <button type="button" class="btn btn-primary">Pay</button>
+      </div>
+    </div>
+  </div>
 </div>
-  <div class="offcanvas-body">
+			  
+			  
+            <!-- A call to action at the end of the navigation bar.
+              This uses the Offcanvas pattern, see documentation at https://getbootstrap.com/docs/5.1/components/offcanvas/ -->
+            
+			  
+			  
+
+
+
     
   </div>
 </div>
