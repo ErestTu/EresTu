@@ -104,6 +104,25 @@ Headfont {
 	font-family: 'Cormorant Garamond', serif;
 	font-style: italic
 }	
+	
+.h1 {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 100px
+}	
+
+.h3 {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic
+}	
+	
+.h3 {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 25px
+}	
+	
 .navbar {
 	font-family: 'Amiri', serif;
 	font-family: 'Cormorant Garamond', serif;
@@ -120,7 +139,41 @@ Headfont {
 	font-family: 'Cormorant Garamond', serif;
 	font-style: italic
 }
+
+.H2 {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 40px
+	}
+
+.H4 {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 30px
+	}
+	
+.H5 {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 65px
+	}
+	
+.H5 {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic
+	}
+	
+	.Text {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px
+	}
 }
+
+
 
  
 
+.perfumelemon.html {
+}
