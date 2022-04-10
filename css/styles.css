@@ -169,6 +169,10 @@ Headfont {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 20px
 	}
+.headimg {
+  width: 100%;
+  height: auto;
+	}
 }
 
 
