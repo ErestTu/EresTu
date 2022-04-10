@@ -59,7 +59,10 @@
             </li>
             <!-- A call to action at the end of the navigation bar.
               This uses the Offcanvas pattern, see documentation at https://getbootstrap.com/docs/5.1/components/offcanvas/ -->
-            <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            
+			  
+			  
+		    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
@@ -137,13 +140,28 @@
       </div>
     </div>
   </div>
+</div><a class="btn btn" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Sign in</a>
+
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Basket </button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+	<div class="container" id="brand info">
+  <h2 class="text-center mt-4 mb-2 H2">Basket</h2>
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 </div>
-<a class="btn btn-outline-dark" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Sign in</a>
+  <div class="offcanvas-body">
+    
+  </div>
+</div>
+			  
           </ul>
         </div>
       </div>
 </nav>
     
+	
     <!-- A hero section. hero-header is defined in our own styles -->
      <div class="bg-dark py-4 mb-4 text-light container-fluid hero-header text-center">
       <h1 class="H5">&nbsp;</h1>
