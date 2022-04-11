@@ -110,6 +110,18 @@ Headfont {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 100px
 }	
+	
+.h1 {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	color: #F2E6D0
+}	
+	
+.h1 {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 100px
+}	
 
 .h3 {
 	font-family: 'Amiri', serif;
@@ -122,10 +134,17 @@ Headfont {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 25px
 }	
+
+.h3 {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	color: #F2E6D0
+}	
 	
 .navbar {
 	font-family: 'Amiri', serif;
 	font-family: 'Cormorant Garamond', serif;
+	color: #BF9A78
 }
 	
 .selctnavbar {
@@ -144,6 +163,12 @@ Headfont {
 	font-family: 'Amiri', serif;
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 40px
+	}
+	
+.H2 {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	color: #59402a
 	}
 
 .H4 {
@@ -173,6 +198,71 @@ Headfont {
   width: 100%;
   height: auto;
 	}
+	
+.logo {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic
+	}
+
+.logo {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	color: #bfa77a
+	}
+
+	.Text {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic
+	}
+	
+	.Text {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px
+	}
+	
+	.Text {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	color: #bfa77a
+	}
+	
+	.H6 {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 25px
+	}
+	
+.H6 {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	color: #59402a
+	}
+.name {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	color:#d9C6a3 
+	}
+	
+.Textname {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 15px
+	}
+	
+.Textname {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	color: #bf9a78
+	}
+.Textname {
+	font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic
+	}
+
 }
 
 
