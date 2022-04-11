@@ -262,8 +262,8 @@ Headfont {
 	font-family: 'Cormorant Garamond', serif;
 	font-style: italic
 	}
-	.fullbutton {
-		color: #bf9a78
+.fullbutton {
+		img col: #bf9a78
 	}
 }
 
@@ -271,9 +271,4 @@ Headfont {
 
  
 
-.perfumelemon.html {
-}
-.tezt {
-}
-.text {
-}
+.
