@@ -265,6 +265,11 @@ Headfont {
 .fullbutton {
 		background-color: #bf9a78
 	}
+	.footer {
+		font-family: 'Amiri', serif;
+	font-family: 'Cormorant Garamond', serif;
+	color: #bf9a78
+	}
 }
 
 
