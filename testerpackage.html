@@ -26,13 +26,13 @@
 
     <title>COTRAVEL, covid-proof travel</title>
   </head>
-  <body class="h-100 d-flex flex-column">
+<body class="h-100 d-flex flex-column">
 
     <!-- This is the navigation bar, see https://getbootstrap.com/docs/5.1/components/navbar/ -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand d-flex align-items-center" href="index.html">
-          <img src="images/Asset 2xxxhdpi.png" alt="CoTravel Logo" width="70">
+         <img src="images/Asset 2xxxhdpi.png" alt="CoTravel Logo" width="70">
           <span class="ftext-erestu logo tab h3"> Eres tu </span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +41,7 @@
         <div class="collapse navbar-collapse" id="mainNav">
           <ul class="navbar-nav flex-grow-1">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="perfume.html" id="destinationDropdownButton" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle selctnavbar navbar" href="perfume.html" id="destinationDropdownButton" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Fragrances
               </a>
               <ul class="dropdown-menu" aria-labelledby="destinationDropdownButton" id="destinationDropdown">
@@ -52,15 +52,14 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link navbar" href="About.html">About us</a>
+              <a class="nav-link navbar" href="About.html">About us&nbsp;&nbsp;</a>
             </li>
 			    <li class="nav-item">
               <a class="nav-link navbar" href="Contactus.html">Contact&nbsp; &nbsp;</a>
             </li>
             <!-- A call to action at the end of the navigation bar.
               This uses the Offcanvas pattern, see documentation at https://getbootstrap.com/docs/5.1/components/offcanvas/ -->
-			  
-			  <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+           	    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
@@ -159,7 +158,7 @@
        Basket is empty!
       </div>
       <div class="modal-footer">
-<button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Continue shopping</button>
+       <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Continue shopping</button>
         <button type="button" class="btn btn-dark">Pay</button>
       </div>
     </div>
@@ -184,126 +183,45 @@
       </div>
 </nav>
     
-    <!-- End of navigation bar -->
+    
+    <!-- A hero section. hero-header is defined in our own styles -->
+    <img src="images/testerbanner.png" alt="..." width="1350" class="headimg">
+	  <br> &nbsp;
 
-    <!-- A hero section with the logo. hero-header is defined in our own styles -->
-  <header>
+	<br> &nbsp;
 
-  <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
-  <div class="overlay"></div>
-
-  <!-- The HTML5 video element that will create the background video on the header -->
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="images/videoperfume.mp4" type="video/mp4">
-	  </video>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">  </video>
-
-  <!-- The header content -->
-  <div class="container h-100">
-    <div class="d-flex h-100 text-center align-items-center">
-      <div class="w-100 text-white">
-        <h1 class="display-3 h1">Eres Tú</h1>
-        <p class="lead mb-0 h3">"Come and create experiences with us"</p>
-      </div>
-    </div>
-  </div>
-</header>
-
-<br> &nbsp;
-
-<!-- Page section example for content below the video header -->
-
-  <!-- End of hero section -->
-
-    <!-- The container for the description of services on the home page -->
-    <div class="container" id="services">
-      <h2 class="text-center mt-4 mb-2 H2">Our Best Sellers&nbsp;</h2>
-      <div class="row mb-5">
-        <!-- 1 column at XS, 2 columns at S, 3 columns at M, 4 columns at L -->
-      
-          <!-- This section uses cards, check the Bootstrap Card documentation at https://getbootstrap.com/docs/5.1/components/card/ -->
-<div class="container">
-  <div class="row">
-    <div class="col">
-    <a class="nav-item">
-    <a class="nav-link active" aria-current="page" href="Perfumelemon.html"><div class="card" style="width: rem;">
-  <img src="images/Lemonparfume.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title H6">Lemon Tree</h5>
-    <p class="card-text Text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div></a>
-  </a>
-    </div>
-    <div class="col">
-     <a class="nav-item">
-    <a class="nav-link active" aria-current="page" href="Perfumejasmin.html"><div class="card" style="width: rem;">
-  <img src="images/Perfumejasmin.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title H6">White Jasmin&nbsp;</h5>
-    <p class="card-text Text">A fresh and calming scent made with jasmine, honey, mandarin and rose.</p>
-  </div>
-		
-</div></a>
-		 <br> &nbsp;
-  </a>
-    </div>
+    <!-- Calendar -->
 	  
+ <div class="row">
+    <div class="col-md-8"><img src="images/testerpackage.png" class="img-thumbnail center" alt="...">		</div>
+    <div class="col-6 col-md-4"> 
+    <h5 class="card-title H2">Scent box</h5>
+    <p class="card-text Text">Get all the scents in one package and try them all out. </p>
+    <a href="Perfumelemon.html" class="btn btn-outline-dark">100 ml</a>
+    <a href="Testerlemon.html" class="btn btn-dark">Tester</a>
   </div>
-		 
-    
-	
-	
-	
-   <div
-		  <div <a class="nav-item">
-    <a class="nav-link active" aria-current="page" href="Testers.html"><div class="card" style="width: rem;">
-		  <img src="images/testerbanner.png" alt="..." width="1350" class="headimg"> </div>
-		<br> &nbsp;
-		
+</div>
+   </div>
+</div>
+<hr>
+	  
 
-		  
-	<div class="container" id="Customer experiences">
-  <h2 class="text-center mt-4 mb-2 H2">Customer experience</h2>
-		
-      <div class="row mb-5">
-		  <div class="container">
-  <div class="row">
-    <div class="col">
-      <div class="card" style="width: rem;">
-  <div class="card-body">
-    <h5 class="card-title H6">Experiences I made&nbsp;</h5>
-    <h6 class="card-subtitle mb-2 name">By Ella</h6>
-    <p class="card-text Textname">"Eres Tú has been with me during some special moments. I wore the perfume while graduating, on my first date with my boyfriend and on the day I moved out of my childhood home. Now every morning I put it on and I feel it is going to be a good day and know good things are coming my way."</p>
-    
-  </div>
-</div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: rem;">
-  <div class="card-body">
-    <h5 class="card-title H6">Easy getting testers</h5>
-    <h6 class="card-subtitle mb-2 name">By Monica</h6>
-    <p class="card-text Textname">"I have a very hard time finding new perfume. I do not have the time to go into the city and try on all the perfumes in the store. Being able to get testers send home and smell them in my own space was such a nice experience. Eres Tú has made it possible for me to pick a perfume from my own home, saving me a lot of time."</p>
-   
-  </div>
-</div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: rem;">
-  <div class="card-body">
-    <h5 class="card-title H6">Verry sustainable</h5>
-    <h6 class="card-subtitle mb-2 name">By Jasmijn</h6>
-    <p class="card-text Textname">I love how sustainable Eres Tú is. When my perfume bottle is empty I never know what to do with the bottle. Sometimes I just keep them in a drawer and sometimes I just throw them away. Now when I want to continue wearing the same perfume but the bottle is empty I can just get it refilled, making that I am not left with an empty bottle.</p>
-    
-  </div>
-</div>
-    </div>
-  </div>
-</div>
-		  
+
+
+
+	 
+
+	  
 <br> &nbsp;
-  <!-- End of service descriptions -->
+
+	  
+	  
+	  
+
+	<br> &nbsp;
+  <!-- End of calendar -->
+
+<script src="js/calendar.js"></script>
 
     <!-- Footer -->
    <div class="container">
@@ -321,7 +239,3 @@
       <span class="footer text-end">&copy; Breda University of Applied Sciences 2021-2022</span>
 		
     </div>
-
-    <!-- The contact form is hidden in an offcanvas at the end of the page. Every contact button points here,
-      see documentation at https://getbootstrap.com/docs/5.1/components/offcanvas/ -->
-   
