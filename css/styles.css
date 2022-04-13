@@ -301,10 +301,20 @@ Headfont {
 	}
 .insta {
   object-fit: cover;
-  width:297px;
-  height:297px;
+  width:350px;
+  height:350px;
+}
+.carouselitem {
+  height: 350px;
+	width: 350px;
 }
 
+.itemimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
  
 
 
